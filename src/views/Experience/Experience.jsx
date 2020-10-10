@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import Reveal from "../../components/Reveal/Reveal";
 
 export default function ExperienceScreen() {
   return (
@@ -7,6 +8,7 @@ export default function ExperienceScreen() {
       <div className="experience-background">
         <div className="timeline-background">
           this is where the timeline will go
+					<Reveal secret={"i'm the avatar"} />
         </div>
         <div className="highlight-background">
           <h1>this is where the selected experience will go</h1>

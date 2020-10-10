@@ -1,18 +1,20 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import transformer from "../../assets/transformer_thonks.png";
+import Expandable from "../../components/Expandable/Expandable";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
         <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
+					<img src={transformer} alt="Transformer!" className="intro-picture"></img>
         </div>
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
+          Wow wow wow David Huang is a pretty cool person! check out all these
           details
         </div>
+				<Expandable content="hihihihi" />
       </div>
     </div>
   );

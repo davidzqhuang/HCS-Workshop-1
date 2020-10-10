@@ -5,15 +5,21 @@ export default function Navbar() {
   return (
     <>
       <div className="info">
-        <h1 style={{ margin: 0 }}>your name</h1>
+        <h1 style={{ margin: 0 }}>David Huang</h1>
         <div className="info-bar">
-          <p className="info-item">yourname@college.harvard.edu</p>
+          <p className="info-item">dhuang@college.harvard.edu</p>
         </div>
         <div className="info-bar">
-          links to cool things you have online maybe?
+					welcome to my website :D
         </div>
       </div>
-      <div className="nav-background">we need functioning links here!</div>
+			<div>
+        <ul id="nav">
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/experience">Experience</a></li>
+        </ul>
+      </div>
     </>
   );
 }

@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/experience" component={ExperienceScreen} />
-          <Route path="/projects" component={ProjectsScreen} />
+          <Route path={["/projects"]} component={ProjectsScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />
         </Switch>
       </Router>
